@@ -7,6 +7,7 @@ public class Dice {
 		
 		int number = 0;
 		String yes ="";
+		int roll = 0;
 		
 		//Create scanner
 		Scanner input = new Scanner(System.in);
@@ -22,6 +23,7 @@ public class Dice {
 		
 		//Prompt the user to roll the dice
 		System.out.println("Let's roll the dice:");
+		roll = input.nextInt();
 	
 		
 		//Display the result of teach of them
