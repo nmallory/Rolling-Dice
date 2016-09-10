@@ -24,10 +24,18 @@ public class Dice {
 		//Prompt the user to roll the dice
 		System.out.println("Let's roll the dice:");
 		roll = input.nextInt();
-	
+		
+		//Ask user if they want to continue
+		System.out.println("Continue? (Y/N)");
+			yes = input.nextLine();		
+			yes = input.nextLine();
+			while(yes.equalsIgnoreCase("y")){
+			}
+	}
+
 		
 		//Display the result of teach of them
 		//Ask them if she wants to roll the dice again
 
 	}
-}
+//}
